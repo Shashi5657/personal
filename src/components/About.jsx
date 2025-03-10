@@ -41,15 +41,15 @@ const About = () => {
         </p>
         <div className="flex gap-4 w-full justify-center md:justify-start mt-6">
           <div className="p-4 rounded-lg shadow-lg bg-gray-800 text-white w-28 text-center">
-            <h3 className="text-xl font-semibold">Experience</h3>
+            <h3 className="text-l font-semibold">Experience</h3>
             <p className="text-gray-400">1+ Years</p>
           </div>
           <div className="p-4 rounded-lg shadow-lg bg-gray-800 text-white w-28 text-center">
-            <h3 className="text-xl font-semibold">Completed</h3>
+            <h3 className="text-l font-semibold">Completed</h3>
             <p className="text-gray-400">15+ Projects</p>
           </div>
           <div className="p-4 rounded-lg shadow-lg bg-gray-800 text-white w-28 text-center">
-            <h3 className="text-xl font-semibold">Support</h3>
+            <h3 className="text-l font-semibold">Support</h3>
             <p className="text-gray-400">Online 24/7</p>
           </div>
         </div>
