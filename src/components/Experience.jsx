@@ -4,7 +4,7 @@ const experiences = [
   {
     company: "CAGEN TECHNOLOGIES",
     role: "Frontend Developer",
-    duration: "Jul 2024 - Present",
+    duration: "Jun 2023 - Present",
     description: `
        Developed a scalable frontend architecture using Next.js, TypeScript, and Ant Design.
        Implemented Context API for authentication and protected routes.
@@ -14,18 +14,18 @@ const experiences = [
        Managed API integrations (GET, POST, DELETE) with dynamic query parameters.
     `,
   },
-  {
-    company: "HulkHire",
-    role: "Frontend Developer",
-    duration: "Feb 2024 - Jun 2024",
-    description: `
-       Built interactive UI components using React.js, Tailwind CSS, and JavaScript.
-       Integrated real-time payment status updates with asynchronous API calls and Webhooks.
-       Applied lazy loading, code splitting, and rendering optimizations for better performance.
-       Used React Hooks for efficient state management and modular code structure.
-       Worked on SEO optimization and best practices for progressive web applications (PWA).
-    `,
-  },
+  // {
+  //   company: "HulkHire",
+  //   role: "Frontend Developer",
+  //   duration: "Feb 2024 - Jun 2024",
+  //   description: `
+  //      Built interactive UI components using React.js, Tailwind CSS, and JavaScript.
+  //      Integrated real-time payment status updates with asynchronous API calls and Webhooks.
+  //      Applied lazy loading, code splitting, and rendering optimizations for better performance.
+  //      Used React Hooks for efficient state management and modular code structure.
+  //      Worked on SEO optimization and best practices for progressive web applications (PWA).
+  //   `,
+  // },
 ];
 
 const Experience = () => {

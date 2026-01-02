@@ -46,7 +46,7 @@ const About = () => {
           </div>
           <div className="p-4 rounded-lg shadow-lg bg-gray-800 text-white w-28 text-center">
             <h3 className="text-l font-semibold">Completed</h3>
-            <p className="text-gray-400">15+ Projects</p>
+            <p className="text-gray-400">3+ Projects</p>
           </div>
           <div className="p-4 rounded-lg shadow-lg bg-gray-800 text-white w-28 text-center">
             <h3 className="text-l font-semibold">Support</h3>
