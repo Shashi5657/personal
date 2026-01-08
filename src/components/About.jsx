@@ -42,7 +42,7 @@ const About = () => {
         <div className="flex gap-4 w-full justify-center md:justify-start mt-6">
           <div className="p-4 rounded-lg shadow-lg bg-gray-800 text-white w-28 text-center">
             <h3 className="text-l font-semibold">Experience</h3>
-            <p className="text-gray-400">1+ Years</p>
+            <p className="text-gray-400">2+ Years</p>
           </div>
           <div className="p-4 rounded-lg shadow-lg bg-gray-800 text-white w-28 text-center">
             <h3 className="text-l font-semibold">Completed</h3>
