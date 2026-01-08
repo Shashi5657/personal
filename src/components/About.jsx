@@ -1,7 +1,7 @@
 import React from "react";
 import secondImg from "../images/pc-setup.jpeg";
 import LeftSocialBar from "./LeftSocialbar";
-import CV from "../images/Shashi_Frontend_Resume.pdf";
+import CV from "../images/SHASHIDHAR_SANGEPU_2YRExp_MERN.pdf";
 
 const About = () => {
   return (
