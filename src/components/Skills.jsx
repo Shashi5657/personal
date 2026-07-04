@@ -7,6 +7,7 @@ import {
   FaReact,
   FaNodeJs,
   FaGit,
+  FaAws,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -14,7 +15,7 @@ import {
   SiNextdotjs,
   SiExpress,
   SiMongodb,
-  SiMysql,
+  SiPostgresql,
   SiAntdesign,
 } from "react-icons/si";
 
@@ -75,8 +76,8 @@ const skills = [
     percentage: 65,
   },
   {
-    name: "MySQL",
-    icon: <SiMysql className="text-blue-700" />,
+    name: "PostgreSQL",
+    icon: <SiPostgresql className="text-blue-700" />,
     percentage: 70,
   },
   { name: "Git", icon: <FaGit className="text-red-600" />, percentage: 85 },
@@ -84,6 +85,11 @@ const skills = [
     name: "ANTD",
     icon: <SiAntdesign className="text-blue-400" />,
     percentage: 80,
+  },
+  {
+    name: "AWS",
+    icon: <FaAws  className="text-blue-400" />,
+    percentage: 70,
   },
 ];
 
