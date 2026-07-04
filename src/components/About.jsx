@@ -27,17 +27,13 @@ const About = () => {
           Want to Know More?
         </h1>
         <p className="text-gray-300 mt-4 text-lg leading-relaxed w-full">
-          Certified Frontend Developer who is expertise in crafting dynamic and
-          responsive user interfaces using a robust MERN stack - React.js,
-          MongoDB, Express.js, and Node.js. Proficient in JavaScript and
-          TypeScript, with a focus on API design and optimization. Skilled in
-          implementing Redux for efficient state management, achieving a 25%
-          reduction in application size. Specialized in React.js, contributing
-          to a 15% boost in development productivity. Well-versed in Git for
-          version control and experienced in utilizing build tools like Parcel
-          and Vite. Ready to bring my front-end development skills, strong
-          problem-solving acumen, and a passion for innovation to drive
-          impactful solutions for your organization.
+         Full Stack Developer with 2+ years of experience building scalable, production-ready web applications using Next.js, React.js,
+Node.js, Express.js, PostgreSQL, Sequelize & Typescript. Experienced in architecting secure REST APIs, implementing
+authentication & authorization using AWS Cognito, integrating complex payment workflows with Stripe, and building real-time
+applications using Socket.IO & Amazon Chime SDK. Hands-on experience deploying & managing cloud infrastructure on AWS,
+including EC2, RDS, VPC, ALB, PM2 and IAM with a strong knowledge of scalable application architecture, state management
+using Redux and modern frontend development practices. Passionate about building reliable, high-performance software while
+continuously learning emerging technologies such as React Native and cloud-native development
         </p>
         <div className="flex gap-4 w-full justify-center md:justify-start mt-6">
           <div className="p-4 rounded-lg shadow-lg bg-gray-800 text-white w-28 text-center">
