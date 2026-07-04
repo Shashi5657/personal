@@ -23,10 +23,10 @@ const About = () => {
 
       {/* About Content */}
       <div className="text-center w-full md:text-left md:ml-12 max-w-2xl">
-        <h1 className="text-4xl md:text-5xl py-4 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+        <h1 className="text-4xl md:text-5xl py-2 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
           Want to Know More?
         </h1>
-        <p className="text-gray-300 mt-4 text-lg leading-relaxed w-full">
+        <p className="text-gray-300 mt-3 text-lg leading-relaxed w-full">
          Full Stack Developer with 2+ years of experience building scalable, production-ready web applications using Next.js, React.js,
 Node.js, Express.js, PostgreSQL, Sequelize & Typescript. Experienced in architecting secure REST APIs, implementing
 authentication & authorization using AWS Cognito, integrating complex payment workflows with Stripe, and building real-time
@@ -35,7 +35,7 @@ including EC2, RDS, VPC, ALB, PM2 and IAM with a strong knowledge of scalable ap
 using Redux and modern frontend development practices. Passionate about building reliable, high-performance software while
 continuously learning emerging technologies such as React Native and cloud-native development
         </p>
-        <div className="flex gap-4 w-full justify-center md:justify-start mt-6">
+        <div className="flex gap-4 w-full justify-center md:justify-start mt-4">
           <div className="p-4 rounded-lg shadow-lg bg-gray-800 text-white w-28 text-center">
             <h3 className="text-l font-semibold">Experience</h3>
             <p className="text-gray-400">2+ Years</p>
