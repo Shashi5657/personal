@@ -17,28 +17,29 @@ const experiences = [
   `,
 },
   {
-    company: "CAGEN TECHNOLOGIES",
-    role: "Frontend Developer",
+    company: "Cagen Technologies",
+    role: "Full Stack Developer",
     duration: "Jun 2024 - Feb 2026",
     description: `
-       Developed a scalable frontend architecture using Next.js, TypeScript, and Ant Design.
-       Implemented Context API for authentication and protected routes.
-       Designed dynamic form fields with custom validation for multiple input types.
-       Integrated Google Maps API for inspector location tracking and polygon mapping.
-       Created a modular, reusable table component with an interactive data management system.
-       Managed API integrations (GET, POST, DELETE) with dynamic query parameters.
+      Developed enterprise-grade web applications using React.js, Next.js, Node.js, Express.js, MongoDB, TypeScript, and Ant Design.
+      Built scalable REST APIs with JWT authentication, role-based access control, Zod validation, and Redis caching to improve security and performance.
+      Designed dynamic, configuration-driven forms and reusable UI components, enabling rapid feature development with minimal code changes.
+      Integrated Google Maps API for inspector location tracking, polygon mapping, and real-time visualization of operational data.
+      Automated certificate generation using Puppeteer, dynamically generating PDF documents from application data.
+      Implemented TanStack Query, Redux, and Context API to manage complex application state and optimize server-side data fetching.
+      Optimized application performance through reusable architecture, efficient API integrations, and caching strategies while collaborating in Agile development teams.
     `,
   },
   {
-    company: "HulkHire",
-    role: "Frontend Developer",
+    company: "HulkHire Technologies",
+    role: "Frontend Developer Intern",
     duration: "Feb 2024 - Jun 2024",
     description: `
-       Built interactive UI components using React.js, Tailwind CSS, and JavaScript.
-       Integrated real-time payment status updates with asynchronous API calls and Webhooks.
-       Applied lazy loading, code splitting, and rendering optimizations for better performance.
-       Used React Hooks for efficient state management and modular code structure.
-       Worked on SEO optimization and best practices for progressive web applications (PWA).
+      Developed responsive user interfaces using React.js, JavaScript, HTML, CSS, and Tailwind CSS.
+      Integrated REST APIs to enable seamless communication between frontend applications and backend services.
+      Built reusable components and custom React Hooks to improve code maintainability and development efficiency.
+      Optimized application performance using lazy loading, code splitting, and modern React best practices.
+      Collaborated with senior developers in an Agile environment, participating in feature development, debugging, and code reviews.
     `,
   },
 ];
