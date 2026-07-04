@@ -14,7 +14,7 @@ const Home = () => {
         </h1>
         <h2 className="text-xl md:text-2xl text-gray-400 mt-2 flex justify-center items-center">
           <span className="w-25 h-[2px] bg-gray-400 mr-3"></span>
-          Frontend Developer
+          Full Stack Developer
         </h2>
         <p className="text-gray-300 mt-4 text-lg leading-relaxed">
           Crafting responsive & dynamic user experiences using React.js, Node.js
