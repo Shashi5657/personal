@@ -1,14 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/programmer.png" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shashidhar Sangepu | Frontend Developer</title>
+    <meta name="theme-color" content="#05060a" />
+
+    <!-- Set theme before paint to avoid flash of wrong theme -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme") || "dark";
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+
+    <title>Shashidhar Sangepu | Full Stack Engineer</title>
     <meta
       name="description"
-      content="Portfolio of Shashidhar Sangepu, a Frontend Developer specializing in React, JavaScript, and modern web development."
+      content="Portfolio of Shashidhar Sangepu, a Full Stack Engineer specializing in React, Next.js, Node.js, AWS, PostgreSQL, TypeScript and cloud infrastructure."
     />
 
     <meta
@@ -31,19 +45,18 @@
       content="https://your-portfolio-url.com/preview.png"
     />
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Shashidhar Sangepu",
-  "jobTitle": "MERN Stack Developer",
-  "url": "https://shashis-portfolio.netlify.app",
-  "sameAs": [
-    "https://github.com/Shashi5657",
-    "https://linkedin.com/in/shashidharsangepu"
-  ]
-}
-</script>
-
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Shashidhar Sangepu",
+        "jobTitle": "MERN Stack Developer",
+        "url": "https://shashis-portfolio.netlify.app",
+        "sameAs": [
+          "https://github.com/Shashi5657",
+          "https://linkedin.com/in/shashidharsangepu"
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

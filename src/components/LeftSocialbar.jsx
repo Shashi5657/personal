@@ -1,51 +1,27 @@
-import React from "react";
-// If you don’t have react-icons installed, run: npm install react-icons
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+
+const socials = [
+  { icon: <FaGithub size={18} />, href: "https://github.com/shashi5657", label: "GitHub" },
+  { icon: <FaLinkedin size={18} />, href: "https://www.linkedin.com/in/shashidharsangepu/", label: "LinkedIn" },
+  { icon: <FaInstagram size={18} />, href: "https://www.instagram.com/mr.villain29/", label: "Instagram" },
+];
 
 const LeftSocialBar = () => {
   return (
-    <div
-      className="
-        hidden
-        md:flex
-        flex-col
-        fixed
-        top-1/2
-        left-2
-        -translate-y-1/2
-        space-y-4
-        z-50
-      "
-    >
-      {/* GitHub */}
-      <a
-        href="https://github.com/shashi5657"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="p-2 bg-gray-800 rounded-full hover:bg-cyan-500 transition-colors"
-      >
-        <FaGithub size={22} className="text-white hover:text-gray-900" />
-      </a>
-
-      {/* LinkedIn */}
-      <a
-        href="https://www.linkedin.com/in/shashidharsangepu/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="p-2 bg-gray-800 rounded-full hover:bg-cyan-500 transition-colors"
-      >
-        <FaLinkedin size={22} className="text-white hover:text-gray-900" />
-      </a>
-
-      {/* Instagram */}
-      <a
-        href="https://www.instagram.com/mr.villain29/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="p-2 bg-gray-800 rounded-full hover:bg-cyan-500 transition-colors"
-      >
-        <FaInstagram size={22} className="text-white hover:text-gray-900" />
-      </a>
+    <div className="fixed bottom-0 left-6 z-40 hidden flex-col items-center gap-4 lg:flex">
+      {socials.map((s) => (
+        <a
+          key={s.label}
+          href={s.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={s.label}
+          className="group grid h-10 w-10 place-items-center rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent)] hover:text-[var(--accent)]"
+        >
+          {s.icon}
+        </a>
+      ))}
+      <span className="mt-2 h-24 w-px bg-gradient-to-b from-[var(--border-strong)] to-transparent" />
     </div>
   );
 };
