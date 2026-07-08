@@ -5,22 +5,31 @@ import SectionHeading from "./ui/SectionHeading";
 import { EASE, viewport } from "../lib/motion";
 
 const experiences = [
-  // {
-  //   company: "Scalex Technologies",
-  //   role: "Full Stack Developer",
-  //   duration: "Mar 2026 - Present",
-  //   current: true,
-  //   tech: ["Next.js", "React", "Node.js", "PostgreSQL", "TypeScript", "AWS", "Stripe", "Socket.IO"],
-  //   points: [
-  //     "Developing and maintaining a scalable mental healthcare platform using Next.js, React, Node.js, Express, PostgreSQL, Sequelize and TypeScript.",
-  //     "Built secure REST APIs with AWS Cognito authentication, Google OAuth, role-based access control, rate limiting and Swagger documentation.",
-  //     "Integrated Stripe Payment Intents, Connect and Billing for appointment payments, expert payouts and subscription management.",
-  //     "Implemented real-time notifications, chat and audio/video consultations using Socket.IO and Amazon Chime SDK.",
-  //     "Designed and deployed production infrastructure on AWS — VPC, EC2, RDS, Application Load Balancer and PM2.",
-  //     "Architected Redux and Redux Persist for multi-role auth, session persistence, and multi-step booking workflows.",
-  //     "Built reusable UI with Formik, Yup, TanStack Table, Framer Motion and Recharts across Admin, Expert and User portals.",
-  //   ],
-  // },
+  {
+    company: "Scalex Technologies",
+    role: "Full Stack Developer",
+    duration: "Mar 2026 - Present",
+    current: true,
+    tech: [
+      "Next.js",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "TypeScript",
+      "AWS",
+      "Stripe",
+      "Socket.IO",
+    ],
+    points: [
+      "Developing and maintaining a scalable mental healthcare platform using Next.js, React, Node.js, Express, PostgreSQL, Sequelize and TypeScript.",
+      "Built secure REST APIs with AWS Cognito authentication, Google OAuth, role-based access control, rate limiting and Swagger documentation.",
+      "Integrated Stripe Payment Intents, Connect and Billing for appointment payments, expert payouts and subscription management.",
+      "Implemented real-time notifications, chat and audio/video consultations using Socket.IO and Amazon Chime SDK.",
+      "Designed and deployed production infrastructure on AWS — VPC, EC2, RDS, Application Load Balancer and PM2.",
+      "Architected Redux and Redux Persist for multi-role auth, session persistence, and multi-step booking workflows.",
+      "Built reusable UI with Formik, Yup, TanStack Table, Framer Motion and Recharts across Admin, Expert and User portals.",
+    ],
+  },
   {
     company: "Cagen Technologies",
     role: "Full Stack Developer",
