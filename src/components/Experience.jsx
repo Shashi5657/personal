@@ -5,27 +5,35 @@ import SectionHeading from "./ui/SectionHeading";
 import { EASE, viewport } from "../lib/motion";
 
 const experiences = [
-  {
-    company: "Scalex Technologies",
-    role: "Full Stack Developer",
-    duration: "Mar 2026 - Present",
-    current: true,
-    tech: ["Next.js", "React", "Node.js", "PostgreSQL", "TypeScript", "AWS", "Stripe", "Socket.IO"],
-    points: [
-      "Developing and maintaining a scalable mental healthcare platform using Next.js, React, Node.js, Express, PostgreSQL, Sequelize and TypeScript.",
-      "Built secure REST APIs with AWS Cognito authentication, Google OAuth, role-based access control, rate limiting and Swagger documentation.",
-      "Integrated Stripe Payment Intents, Connect and Billing for appointment payments, expert payouts and subscription management.",
-      "Implemented real-time notifications, chat and audio/video consultations using Socket.IO and Amazon Chime SDK.",
-      "Designed and deployed production infrastructure on AWS — VPC, EC2, RDS, Application Load Balancer and PM2.",
-      "Architected Redux and Redux Persist for multi-role auth, session persistence, and multi-step booking workflows.",
-      "Built reusable UI with Formik, Yup, TanStack Table, Framer Motion and Recharts across Admin, Expert and User portals.",
-    ],
-  },
+  // {
+  //   company: "Scalex Technologies",
+  //   role: "Full Stack Developer",
+  //   duration: "Mar 2026 - Present",
+  //   current: true,
+  //   tech: ["Next.js", "React", "Node.js", "PostgreSQL", "TypeScript", "AWS", "Stripe", "Socket.IO"],
+  //   points: [
+  //     "Developing and maintaining a scalable mental healthcare platform using Next.js, React, Node.js, Express, PostgreSQL, Sequelize and TypeScript.",
+  //     "Built secure REST APIs with AWS Cognito authentication, Google OAuth, role-based access control, rate limiting and Swagger documentation.",
+  //     "Integrated Stripe Payment Intents, Connect and Billing for appointment payments, expert payouts and subscription management.",
+  //     "Implemented real-time notifications, chat and audio/video consultations using Socket.IO and Amazon Chime SDK.",
+  //     "Designed and deployed production infrastructure on AWS — VPC, EC2, RDS, Application Load Balancer and PM2.",
+  //     "Architected Redux and Redux Persist for multi-role auth, session persistence, and multi-step booking workflows.",
+  //     "Built reusable UI with Formik, Yup, TanStack Table, Framer Motion and Recharts across Admin, Expert and User portals.",
+  //   ],
+  // },
   {
     company: "Cagen Technologies",
     role: "Full Stack Developer",
     duration: "Jun 2024 - Feb 2026",
-    tech: ["React", "Next.js", "Node.js", "MongoDB", "TypeScript", "Ant Design", "Redis"],
+    tech: [
+      "React",
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "TypeScript",
+      "Ant Design",
+      "Redis",
+    ],
     points: [
       "Developed enterprise-grade web applications using React, Next.js, Node.js, Express, MongoDB, TypeScript and Ant Design.",
       "Built scalable REST APIs with JWT authentication, role-based access control, Zod validation and Redis caching.",
@@ -98,7 +106,10 @@ const TimelineItem = ({ exp, index }) => {
 
         <ul className="mt-4 space-y-2.5">
           {preview.map((p, i) => (
-            <li key={i} className="flex gap-3 text-sm leading-relaxed text-[var(--text-muted)]">
+            <li
+              key={i}
+              className="flex gap-3 text-sm leading-relaxed text-[var(--text-muted)]"
+            >
               <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-[var(--accent)]" />
               {p}
             </li>
@@ -115,7 +126,10 @@ const TimelineItem = ({ exp, index }) => {
               className="space-y-2.5 overflow-hidden"
             >
               {rest.map((p, i) => (
-                <li key={i} className="mt-2.5 flex gap-3 text-sm leading-relaxed text-[var(--text-muted)]">
+                <li
+                  key={i}
+                  className="mt-2.5 flex gap-3 text-sm leading-relaxed text-[var(--text-muted)]"
+                >
                   <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-[var(--accent)]" />
                   {p}
                 </li>
@@ -142,7 +156,10 @@ const TimelineItem = ({ exp, index }) => {
             className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-[var(--accent)] transition-colors hover:text-[var(--text)]"
           >
             {open ? "Show less" : `Show ${rest.length} more`}
-            <motion.span animate={{ rotate: open ? 180 : 0 }} transition={{ duration: 0.3 }}>
+            <motion.span
+              animate={{ rotate: open ? 180 : 0 }}
+              transition={{ duration: 0.3 }}
+            >
               <FiChevronDown />
             </motion.span>
           </button>
@@ -154,7 +171,10 @@ const TimelineItem = ({ exp, index }) => {
 
 const Experience = () => {
   return (
-    <section id="experience" className="relative w-full px-6 py-24 md:px-16 md:py-32">
+    <section
+      id="experience"
+      className="relative w-full px-6 py-24 md:px-16 md:py-32"
+    >
       <div className="mx-auto max-w-3xl">
         <SectionHeading
           eyebrow="Career"
